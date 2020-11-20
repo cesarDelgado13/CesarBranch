@@ -1,0 +1,81 @@
+[ERROR] Error loading @ionic/angular package.json: Error: Cannot find module '@ionic/angular/package'
+        
+        Require stack:
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\lib\project\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\lib\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\bin\ionic
+[ERROR] Error loading @ionic/angular-toolkit package.json: Error: Cannot find module '@ionic/angular-toolkit/package'
+        
+        Require stack:
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\lib\project\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\lib\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\bin\ionic
+[ERROR] Error loading @angular/cli package.json: Error: Cannot find module '@angular/cli/package'
+        
+        Require stack:
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\lib\project\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\lib\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\bin\ionic
+[ERROR] Error loading @angular-devkit/build-angular package.json: Error: Cannot find module '@angular-devkit/build-angular/package'
+        
+        Require stack:
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\lib\project\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\lib\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\bin\ionic
+[ERROR] Error loading @angular-devkit/schematics package.json: Error: Cannot find module '@angular-devkit/schematics/package'
+        
+        Require stack:
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\lib\project\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\lib\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\bin\ionic
+2020-07-01T22:14:27.364Z ionic:lib Terminal info: { ci: false, shell: 'C:\\WINDOWS\\system32\\cmd.exe', tty: false, windows: true }
+2020-07-01T22:14:27.548Z ionic:lib CLI global options: { _: [ '_' ], help: null, h: null, verbose: null, quiet: null, interactive: false, color: true, confirm: null, json: null, project: null, '--': [] }
+Wed, 01 Jul 2020 22:14:29 GMT leek initialize { trackingCode: 'UA-44023830-30', name: '9ab8644f-cd9c-45d9-b083-c37e5e6a94f6', globalName: 'ionic', clientId: 'ionic5edb4ce1030d29183da9ff30b67b4a36', version: '5.4.16', silent: undefined }
+Wed, 01 Jul 2020 22:14:29 GMT leek enqueue eventType:appview silent:undefined payload:{ name: 'command execution', message: 'ionic start cursoIONIC blank --verbose --interactive --color --project-id=cursoIONIC' }
+Wed, 01 Jul 2020 22:14:29 GMT leek:get-version getVersion platform:win32 release:10.0.18362 output:  win32 10.0.18362
+Wed, 01 Jul 2020 22:14:29 GMT leek:provider getAppViewObject { v: 1, t: 'appview', aip: 1, tid: 'UA-44023830-30', cid: 'ionic5edb4ce1030d29183da9ff30b67b4a36', an: 'ionic', av: '5.4.16', cd: 'ionic start cursoIONIC blank --verbose --interactive --color --project-id=cursoIONIC', cd1: ' win32 10.0.18362', cd2: 'v14.5.0', qt: 0, z: 1593641669286 }
+Wed, 01 Jul 2020 22:14:29 GMT leek:provider eventType: appview url: undefined
+Wed, 01 Jul 2020 22:14:29 GMT leek http 'https://google-analytics.com/collect?v=1&t=appview&aip=1&tid=UA-44023830-30&cid=ionic5edb4ce1030d29183da9ff30b67b4a36&an=ionic&av=5.4.16&cd=ionic%20start%20cursoIONIC%20blank%20--verbose%20--interactive%20--color%20--project-id%3DcursoIONIC&cd1=%20win32%2010.0.18362&cd2=v14.5.0&qt=0&z=1593641669286'
+2020-07-01T22:14:45.163Z ionic:lib:telemetry metric: { name: 'cli_command_metrics', timestamp: '2020-07-01T22:14:29.022Z', session_id: '9ab8644f-cd9c-45d9-b083-c37e5e6a94f6', source: 'cli', value: { command: 'ionic start', arguments: 'cursoIONIC blank --verbose --interactive --color --project-id=cursoIONIC', app_id: undefined, backend: 'pro', version: '5.4.16', node_version: 'v14.5.0', npm_version: '6.14.5', os: 'Windows 10', native_run_version: 'not installed', cordova_res_version: 'not installed' } }
+2020-07-01T22:14:45.173Z superagent POST https://api.ionicjs.com/events/metrics
+2020-07-01T22:14:46.043Z superagent POST https://api.ionicjs.com/events/metrics -> 204
+[ERROR] Error loading @ionic/angular package.json: Error: Cannot find module '@ionic/angular/package'
+        
+        Require stack:
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\lib\project\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\lib\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\bin\ionic
+[ERROR] Error loading @ionic/angular-toolkit package.json: Error: Cannot find module '@ionic/angular-toolkit/package'
+        
+        Require stack:
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\lib\project\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\lib\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\bin\ionic
+[ERROR] Error loading @angular/cli package.json: Error: Cannot find module '@angular/cli/package'
+        
+        Require stack:
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\lib\project\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\lib\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\bin\ionic
+[ERROR] Error loading @angular-devkit/build-angular package.json: Error: Cannot find module '@angular-devkit/build-angular/package'
+        
+        Require stack:
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\lib\project\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\lib\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\bin\ionic
+[ERROR] Error loading @angular-devkit/schematics package.json: Error: Cannot find module '@angular-devkit/schematics/package'
+        
+        Require stack:
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\lib\project\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\lib\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\index.js
+        - C:\Users\Ivan Delgado\AppData\Roaming\npm\node_modules\ionic\bin\ionic

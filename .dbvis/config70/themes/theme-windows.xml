@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DbVisualizer>
+  <Themes>
+    <Theme name="theme-windows">
+      <Color name="dbvis.editor.SQLEditorFindAllBG">#cfeafe</Color>
+    </Theme>
+  </Themes>
+</DbVisualizer>

@@ -1,0 +1,110 @@
+{
+	"name": "vscode-gist",
+	"displayName": "Gist Extension",
+	"description": "Create, open and edit Gists",
+	"version": "1.0.0",
+	"publisher": "dbankier",
+	"licence": "MIT",
+	"homepage": "https://github.com/dbankier/vscode-gist/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dbankier/vscode-gist.git"
+	},
+	"engines": {
+		"vscode": "^1.9.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.openCodeBlock",
+		"onCommand:extension.openFavoriteCodeBlock",
+		"onCommand:extension.createCodeBlock",
+		"onCommand:extension.openCodeBlockInBrowser",
+		"onCommand:extension.deleteCodeBlock",
+		"onCommand:extension.removeFileFromCodeBlock",
+		"onCommand:extension.addToCodeBlock",
+		"onCommand:extension.changeCodeBlockDescription"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.openCodeBlock",
+				"title": "GIST: Open Block"
+			},
+			{
+				"command": "extension.openFavoriteCodeBlock",
+				"title": "GIST: Open Favorite Block"
+			},
+			{
+				"command": "extension.createCodeBlock",
+				"title": "GIST: Create New Block"
+			},
+			{
+				"command": "extension.openCodeBlockInBrowser",
+				"title": "GIST: Open Block In Browser"
+			},
+			{
+				"command": "extension.deleteCodeBlock",
+				"title": "GIST: Delete Block"
+			},
+			{
+				"command": "extension.removeFileFromCodeBlock",
+				"title": "GIST: Remove From Block"
+			},
+			{
+				"command": "extension.addToCodeBlock",
+				"title": "GIST: Add To Block"
+			},
+			{
+				"command": "extension.changeCodeBlockDescription",
+				"title": "GIST: Change Block Description"
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "Gist Configuration",
+			"properties": {
+				"gist.oauth_token": {
+					"type": "string",
+					"default": "",
+					"description": "OAuth Github Token"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "tsc",
+		"compile": "tsc -w",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test",
+		"changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+		"lint": "tslint ./src/**/*.ts ./test/**/*.ts"
+	},
+	"devDependencies": {
+		"@types/github": "0.0.0",
+		"@types/mocha": "2.2.39",
+		"@types/node": "6.0.31",
+		"@types/open": "0.0.29",
+		"@types/request": "0.0.40",
+		"@types/shelljs": "0.7.0",
+		"@types/tmp": "0.0.32",
+		"conventional-changelog-cli": "1.2.0",
+		"tslint": "5.0.0",
+		"typescript": "2.2.1",
+		"vscode": "1.0.5"
+	},
+	"dependencies": {
+		"github": "9.1.0",
+		"open": "0.0.5",
+		"request": "2.79.0",
+		"shelljs": "0.7.6",
+		"tmp": "0.0.31"
+	},
+	"__metadata": {
+		"id": "c07c7f98-0b04-4b22-bd46-e11937eabd90",
+		"publisherId": "261c2fe7-dbea-4dbf-bff3-6da4a886e8d2",
+		"publisherDisplayName": "David Bankier"
+	}
+}

@@ -1,0 +1,143 @@
+{
+  "Manifest Link": {
+    "prefix": "pwa-register",
+    "description": "Function that registers the service worker",
+    "body": [
+      "function registerServiceWorker() {",
+      "\tif ('serviceWorker' in navigator) {",
+      "\t\tnavigator.serviceWorker.register('/${1:sw.js}').then(reg => {",
+      "\t\t\tconsole.log('Registration successful', reg);",
+      "\t\t})",
+      "\t\t\t.catch(e => console.error('Error during service worker registration:', e));",
+      "\t} else {",
+      "\t\tconsole.warn('Service Worker is not supported');",
+      "\t}",
+      "}",
+      "$0"
+    ]
+  },
+  "Service Worker": {
+    "prefix": "pwa-custom-service-worker",
+    "description": "A service worker ready to accept the precache list from workbox-build",
+    "body": [
+      "// https://developers.google.com/web/fundamentals/getting-started/primers/service-workers",
+      "// ------------------------------",
+      "// Pre Cache and Update",
+      "// ------------------------------",
+      "importScripts('./workbox-sw.prod.v1.0.1.js');",
+      "",
+      "const workboxSW = new WorkboxSW({ clientsClaim: true });",
+      "/**",
+      " * precache() is passed a manifest of URLs and versions",
+      " * each time the service worker starts up.",
+      " * Use workbox-build to generate the manifest",
+      " */",
+      "workboxSW.precache([]);",
+      ""
+    ]
+  },
+  "PWA Push Event": {
+    "prefix": "pwa-event-push",
+    "description": "Create an event listener that handles the push event",
+    "body": [
+      "self.addEventListener('push', event => {",
+      "\tconst title = '${1:Push Title}';",
+      "\tconst options ={",
+      "\t\tbody: event.data.text(),",
+      "\t\ticon: '${2:image.png}',",
+      "\t\tbadge: '${3:image.png}'",
+      "\t};",
+      "\t$0",
+      "\t event.waitUntil(self.registration.showNotification(title, options));",
+      "});"
+    ]
+  },
+  "PWA Sync Event": {
+    "prefix": "pwa-event-sync",
+    "description": "Create an event listener that handles the sync event",
+    "body": [
+      "self.addEventListener('sync', event => {",
+      "\tevent.waitUntil(",
+      "\t\t$0",
+      "\t);",
+      "});"
+    ]
+  },
+  "PWA Notification Click Event": {
+    "prefix": "pwa-event-notificationclick",
+    "description": "Create an event listener that handles the notificationclick event",
+    "body": [
+      "self.addEventListener('notificationclick', event => {",
+      "\tevent.notification.close();",
+      "\tevent.waitUntil(",
+      "\t\t$0",
+      "\t);",
+      "});"
+    ]
+  },
+  "PWA Push Subscription Change Event": {
+    "prefix": "pwa-event-pushsubscriptionchange",
+    "description": "Create an event listener that handles the pushsubscriptionchange event",
+    "body": [
+      "self.addEventListener('pushsubscriptionchange', event => {",
+      "\tconst applicationServerKey = ${1:applicationServerPublicKey};",
+      "\tevent.waitUntil(",
+      "\t\tself.registration.pushManager.subscribe({",
+      "\t\t\tuserVisibleOnly: true,",
+      "\t\t\tapplicationServerKey: applicationServerKey",
+      "\t})",
+      "\t\t\t.then(newSubscription => {",
+      "\t\t\t\t$0",
+      "\t\t})",
+      "\t);",
+      "});"
+    ]
+  },
+  "PWA Install Event": {
+    "prefix": "pwa-event-install",
+    "description": "Create an event listener that handles the install event",
+    "body": [
+      "self.addEventListener('install', event => {",
+      "\tevent.waitUntil(",
+      "\t\t$0",
+      "\t)",
+      "});"
+    ]
+  },
+  "PWA Load Event": {
+    "prefix": "pwa-event-load",
+    "description": "Create an event listener that handles the load event",
+    "body": [
+      "self.addEventListener('load', event => {",
+      "\tevent.waitUntil(",
+      "\t\t$0",
+      "\t)",
+      "});"
+    ]
+  },
+  "PWA Activate Change Event": {
+    "prefix": "pwa-event-activate",
+    "description": "Create an event listener that handles the activate event",
+    "body": [
+      "self.addEventListener('activate', event => {",
+      "\tevent.waitUntil(",
+      "\t\t$0",
+      "\t)",
+      "});"
+    ]
+  },
+  "PWA Fetch Change Event": {
+    "prefix": "pwa-event-fetch",
+    "description": "Create an event listener that handles the fetch event",
+    "body": [
+      "self.addEventListener('fetch', event => {",
+      "\tevent.respondWith(",
+      "\t\t$0",
+      "\t);",
+      "\tevent.waitUntil(",
+      "\t\t",
+      "\t);",
+      "});"
+    ]
+  }
+}

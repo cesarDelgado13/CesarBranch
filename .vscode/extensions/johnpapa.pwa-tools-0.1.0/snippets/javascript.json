@@ -1,0 +1,58 @@
+{
+  "Inject Precache": {
+    "prefix": "pwa-inject-precache",
+    "description": "Generate and inject precache manifest for an existing service worker",
+    "body": [
+      "// TODO: Install workBox-build from a command prompt",
+      "// TODO:   npm install workbox-build",
+      "const workboxBuild = require('workbox-build');",
+      "const SRC_DIR = 'src';",
+      "const BUILD_DIR = '{1:dist}';",
+      "const SW = '${2:sw.js}';",
+      "",
+      "const input ={",
+      "\tswSrc: `\\${SRC_DIR}/\\${SW}`,",
+      "\tswDest: `\\${BUILD_DIR}/\\${SW}`,",
+      "\tglobDirectory: BUILD_DIR,",
+      "\tglobPatterns: [",
+      "\t\t'**/*.{js,png,ico,svg,html,css}',",
+      "\t\t'assets/**/*'",
+      "\t],",
+      "\tglobIgnores: ['${2:sw.js}'],",
+      "\tmaximumFileSizeToCacheInBytes: 4000000",
+      "};",
+      "",
+      "workboxBuild.injectManifest(input).then(() =>{",
+      "\tconsole.log(`The service worker \\${BUILD_DIR}/\\${SW} has been injected with a precache list.`);",
+      "});",
+      "${0}"
+    ]
+  },
+  "Generate Service Worker": {
+    "prefix": "pwa-generate-service-worker",
+    "description": "Generate a service worker with a precache manifest",
+    "body": [
+      "// TODO: Install WorkBox-build from a command prompt",
+      "// TODO:   npm install workbox-build",
+      "const workboxBuild = require('workbox-build');",
+      "const BUILD_DIR = '${1:dist}';",
+      "const SW = '${2:sw.js}';",
+      "",
+      "const input ={",
+      "\tswDest: `\\${BUILD_DIR}/\\${SW}`,",
+      "\tglobDirectory: BUILD_DIR,",
+      "\tglobPatterns: [",
+      "\t\t'**/*.{js,png,ico,svg,html,css}',",
+      "\t\t//'assets/**/*'",
+      "\t],",
+      "\tglobIgnores: [],",
+      "\tmaximumFileSizeToCacheInBytes: 4000000",
+      "};",
+      "",
+      "workboxBuild.generateSW(input).then(() =>{",
+      "\tconsole.log(`The service worker \\${BUILD_DIR}/\\${SW} has been generated with a precache list.`);",
+      "});",
+      "${0}"
+    ]
+  }
+}

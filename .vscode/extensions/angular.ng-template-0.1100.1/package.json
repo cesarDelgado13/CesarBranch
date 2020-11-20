@@ -1,0 +1,147 @@
+{
+	"name": "ng-template",
+	"displayName": "Angular Language Service",
+	"description": "Editor services for Angular templates",
+	"version": "0.1100.1",
+	"publisher": "Angular",
+	"icon": "angular.png",
+	"license": "MIT",
+	"keywords": [
+		"Angular",
+		"multi-root ready"
+	],
+	"engines": {
+		"vscode": "^1.41.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "angular.restartNgServer",
+				"title": "Restart Angular Language server",
+				"category": "Angular"
+			}
+		],
+		"configuration": {
+			"title": "Angular Language Service",
+			"properties": {
+				"angular.ngdk": {
+					"type": [
+						"string",
+						"null"
+					],
+					"default": null,
+					"description": "Specifies the folder path to @angular/language-service.",
+					"scope": "machine"
+				},
+				"angular.log": {
+					"type": "string",
+					"enum": [
+						"off",
+						"terse",
+						"normal",
+						"verbose"
+					],
+					"default": "terse",
+					"description": "Enables logging of the Angular server to a file. This log can be used to diagnose Angular Server issues. The log may contain file paths, source code, and other potentially sensitive information from your project."
+				},
+				"angular.experimental-ivy": {
+					"type": "boolean",
+					"default": false,
+					"description": "This is an experimental feature that enables the Ivy language service. Please make sure ngcc is run before enabling this flag."
+				}
+			}
+		},
+		"grammars": [
+			{
+				"path": "./syntaxes/inline-template.json",
+				"scopeName": "inline-template.ng",
+				"injectTo": [
+					"source.ts"
+				],
+				"embeddedLanguages": {
+					"text.html": "html",
+					"source.css": "css",
+					"source.js": "javascript"
+				}
+			},
+			{
+				"path": "./syntaxes/inline-styles.json",
+				"scopeName": "inline-styles.ng",
+				"injectTo": [
+					"source.ts"
+				],
+				"embeddedLanguages": {
+					"source.css": "css"
+				}
+			},
+			{
+				"path": "./syntaxes/template.json",
+				"scopeName": "template.ng",
+				"injectTo": [
+					"text.html.derivative",
+					"source.ts"
+				],
+				"embeddedLanguages": {
+					"text.html": "html",
+					"source.css": "css"
+				}
+			},
+			{
+				"path": "./syntaxes/expression.json",
+				"scopeName": "expression.ng"
+			}
+		]
+	},
+	"activationEvents": [
+		"onLanguage:html",
+		"onLanguage:typescript"
+	],
+	"main": "./client",
+	"scripts": {
+		"compile": "yarn compile:banner && tsc -b && rollup -c",
+		"compile:banner": "tsc -p server/banner.tsconfig.json && rollup -c banner.rollup.config.js",
+		"compile:test": "tsc -b server/src/tests",
+		"compile:integration": "tsc -b integration",
+		"compile:syntaxes-test": "tsc -b syntaxes/test",
+		"build:syntaxes": "tsc -b syntaxes && node syntaxes/out/build.js",
+		"format": "scripts/format.sh",
+		"watch": "tsc -b -w",
+		"postinstall": "vscode-install && cd client && yarn && cd ../server && yarn && cd ..",
+		"package": "rm -rf dist && node scripts/package.js",
+		"test": "yarn compile:test && jasmine server/out/tests/*_spec.js",
+		"test:lsp": "yarn compile:integration && jasmine --config=integration/lsp/jasmine.json",
+		"test:e2e": "yarn compile:integration && ./scripts/e2e.sh",
+		"test:syntaxes": "yarn compile:syntaxes-test && yarn build:syntaxes && jasmine syntaxes/test/driver.js"
+	},
+	"dependencies": {
+		"typescript": "~4.0.5"
+	},
+	"devDependencies": {
+		"@types/jasmine": "3.6.1",
+		"@types/node": "12.19.5",
+		"clang-format": "1.4.0",
+		"jasmine": "3.6.3",
+		"prettier": "2.1.2",
+		"rollup": "2.33.3",
+		"rollup-plugin-commonjs": "10.1.0",
+		"tslint": "6.1.3",
+		"tslint-eslint-rules": "5.4.0",
+		"vsce": "1.81.1",
+		"vscode": "1.1.37",
+		"vscode-jsonrpc": "5.0.1",
+		"vscode-languageserver-protocol": "3.15.3",
+		"vscode-tmgrammar-test": "0.0.10"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/angular/vscode-ng-language-service"
+	},
+	"__metadata": {
+		"id": "a92d457e-6f3f-4167-8087-1a54e1b6e00e",
+		"publisherId": "5a69cff0-bd3b-4074-999f-4952fc2b037a",
+		"publisherDisplayName": "Angular"
+	}
+}

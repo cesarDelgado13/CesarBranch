@@ -1,0 +1,98 @@
+00:00:00.014069 main     VirtualBox COM Server 6.0.14 r133895 win.amd64 (Oct 10 2019 19:44:31) release log
+00:00:00.014076 main     Log opened 2020-10-02T13:31:38.856869300Z
+00:00:00.014078 main     Build Type: release
+00:00:00.014093 main     OS Product: Windows 10
+00:00:00.014096 main     OS Release: 10.0.18362
+00:00:00.014098 main     OS Service Pack: 
+00:00:00.165608 main     DMI Product Name: HP Laptop 15-db0xxx
+00:00:00.191720 main     DMI Product Version: Type1ProductConfigId
+00:00:00.191743 main     Host RAM: 7645MB (7.4GB) total, 3534MB (3.4GB) available
+00:00:00.191755 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.191756 main     Process ID: 13520
+00:00:00.191757 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.532054          VirtualBox: object creation starts
+00:00:00.541237          Home directory: 'C:\Users\Ivan Delgado\.VirtualBox'
+00:00:00.542554          Installed Drivers:
+00:00:00.569179            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.0.14.33895)
+00:00:00.584459            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.0.14.33895)
+00:00:00.598623            C:\WINDOWS\system32\DRIVERS\VBoxDrv.sys (Version: 6.0.14.33895)
+00:00:00.630870            C:\WINDOWS\system32\DRIVERS\VBoxNetAdp6.sys (Version: 6.0.14.33895)
+00:00:00.758682          Loading settings file "C:\Users\Ivan Delgado\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.478922          netIfIsWireless: CreateFile on '\\.\{6F7CF869-F2DB-4FBD-ADB5-8C96151CEC68}' failed with rcWin=2 (0x2) - ignoring
+00:00:01.486492          netIfIsWireless: CreateFile on '\\.\{E29752D4-E88B-458A-B73F-A5D59393909B}' failed with rcWin=2 (0x2) - ignoring
+00:00:01.519850          HostDnsMonitor::updateInfo
+00:00:01.521032          HostDnsMonitor: old information
+00:00:01.521040            no server entries
+00:00:01.521042            no domain set
+00:00:01.521043            no search string entries
+00:00:01.521044          HostDnsMonitor: new information
+00:00:01.521044            server 1: 189.198.222.137
+00:00:01.521046            server 2: 189.194.232.137
+00:00:01.521047            server 3: 200.52.162.137
+00:00:01.521048            no domain set
+00:00:01.521049            no search string entries
+00:00:01.649092          VD: VDInit finished with VINF_SUCCESS
+00:00:01.718739          Loading settings file "C:\Users\Ivan Delgado\VirtualBox VMs\Ubuntu\Ubuntu.vbox" with version "1.16-windows"
+00:00:01.729526          VirtualBox: object created
+00:00:09.393979          Saving settings file "C:\Users\Ivan Delgado\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:09.473474          Saving settings file "C:\Users\Ivan Delgado\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:20.980721          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:22.715232          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={5047460a-265d-4538-b23e-ddba5fb84976} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:23.285296          netIfIsWireless: CreateFile on '\\.\{6F7CF869-F2DB-4FBD-ADB5-8C96151CEC68}' failed with rcWin=2 (0x2) - ignoring
+00:00:23.299414          netIfIsWireless: CreateFile on '\\.\{E29752D4-E88B-458A-B73F-A5D59393909B}' failed with rcWin=2 (0x2) - ignoring
+00:17:24.959580 dns-monitor HostDnsMonitor::updateInfo
+00:17:24.959650 dns-monitor HostDnsMonitor: unchanged
+00:25:16.173603          Saving settings file "C:\Users\Ivan Delgado\VirtualBox VMs\Ubuntu\Ubuntu.vbox" with version "1.16-windows"
+00:25:16.632065          Saving settings file "C:\Users\Ivan Delgado\VirtualBox VMs\Ubuntu\Ubuntu.vbox" with version "1.16-windows"
+00:26:22.209055 MainPower Host suspending: Paused 0 VMs
+01:17:51.600611 dns-monitor HostDnsMonitor::updateInfo
+01:17:51.600805 dns-monitor HostDnsMonitor: old information
+01:17:51.600822 dns-monitor   server 1: 189.198.222.137
+01:17:51.600834 dns-monitor   server 2: 189.194.232.137
+01:17:51.600844 dns-monitor   server 3: 200.52.162.137
+01:17:51.600854 dns-monitor   no domain set
+01:17:51.600863 dns-monitor   no search string entries
+01:17:51.600873 dns-monitor HostDnsMonitor: new information
+01:17:51.600882 dns-monitor   no server entries
+01:17:51.600891 dns-monitor   no domain set
+01:17:51.600899 dns-monitor   no search string entries
+01:17:51.929861 MainPower Host resumed: Resumed 0 VMs
+01:17:57.621597 dns-monitor HostDnsMonitor::updateInfo
+01:17:57.621658 dns-monitor HostDnsMonitor: old information
+01:17:57.621671 dns-monitor   no server entries
+01:17:57.621683 dns-monitor   no domain set
+01:17:57.621694 dns-monitor   no search string entries
+01:17:57.621706 dns-monitor HostDnsMonitor: new information
+01:17:57.621717 dns-monitor   server 1: 189.198.222.137
+01:17:57.621730 dns-monitor   server 2: 189.194.232.137
+01:17:57.621742 dns-monitor   server 3: 200.52.162.137
+01:17:57.621754 dns-monitor   no domain set
+01:17:57.621764 dns-monitor   no search string entries
+01:19:03.836526 dns-monitor HostDnsMonitor::updateInfo
+01:19:03.836623 dns-monitor HostDnsMonitor: old information
+01:19:03.836636 dns-monitor   server 1: 189.198.222.137
+01:19:03.836650 dns-monitor   server 2: 189.194.232.137
+01:19:03.836662 dns-monitor   server 3: 200.52.162.137
+01:19:03.836674 dns-monitor   no domain set
+01:19:03.836684 dns-monitor   no search string entries
+01:19:03.836695 dns-monitor HostDnsMonitor: new information
+01:19:03.836706 dns-monitor   no server entries
+01:19:03.836718 dns-monitor   no domain set
+01:19:03.836729 dns-monitor   no search string entries
+01:19:05.856523 dns-monitor HostDnsMonitor::updateInfo
+01:19:05.856585 dns-monitor HostDnsMonitor: old information
+01:19:05.856601 dns-monitor   no server entries
+01:19:05.856615 dns-monitor   no domain set
+01:19:05.856626 dns-monitor   no search string entries
+01:19:05.856638 dns-monitor HostDnsMonitor: new information
+01:19:05.856650 dns-monitor   server 1: 189.198.222.137
+01:19:05.856662 dns-monitor   server 2: 189.194.232.137
+01:19:05.856674 dns-monitor   server 3: 200.52.162.137
+01:19:05.856685 dns-monitor   no domain set
+01:19:05.856696 dns-monitor   no search string entries
+01:19:06.931302          Saving settings file "C:\Users\Ivan Delgado\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:19:07.131852          Saving settings file "C:\Users\Ivan Delgado\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:19:16.138173 main     VirtualBox: object deletion starts
+01:19:16.153276 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\Ivan Delgado\VirtualBox VMs\Ubuntu\Ubuntu.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:19:16.160799 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+01:19:16.161182 main     VirtualBox: object deleted

@@ -1,0 +1,68 @@
+{
+	"name": "pwa-tools",
+	"publisher": "johnpapa",
+	"displayName": "PWA Tools",
+	"description": "PWA Tools",
+	"icon": "images/pwa.png",
+	"galleryBanner": {
+		"color": "#0273D4",
+		"theme": "dark"
+	},
+	"license": "SEE LICENSE IN LICENSE.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/johnpapa/vscode-pwa.git"
+	},
+	"keywords": [
+		"Angular",
+		"PWA",
+		"JavaScript",
+		"Service Worker"
+	],
+	"version": "0.1.0",
+	"engines": {
+		"vscode": "^1.10.0"
+	},
+	"devDependencies": {
+		"vscode": "^1.11.0"
+	},
+	"categories": [
+		"Snippets",
+		"Other"
+	],
+	"contributes": {
+		"jsonValidation": [
+			{
+				"fileMatch": "manifest.json",
+				"url": "http://json.schemastore.org/web-manifest"
+			}
+		],
+		"snippets": [
+			{
+				"language": "json",
+				"path": "./snippets/json.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/javascript-or-typescript.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/javascript-or-typescript.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/javascript.json"
+			},
+			{
+				"language": "html",
+				"path": "./snippets/html.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "a7b7eda5-dab4-4032-9097-a4d791dbd594",
+		"publisherId": "4434843a-4ebf-4f44-84f5-4176380c492d",
+		"publisherDisplayName": "John Papa"
+	}
+}

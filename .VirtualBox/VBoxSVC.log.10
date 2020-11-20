@@ -1,0 +1,80 @@
+24:08:29.534110 MainPower Log continuation - Log started 2019-11-21T13:51:35.766336900Z
+24:10:25.223424 dns-monitor HostDnsMonitor::updateInfo
+24:10:25.223751 dns-monitor HostDnsMonitor: old information
+24:10:25.223831 dns-monitor   no server entries
+24:10:25.223880 dns-monitor   no domain set
+24:10:25.223927 dns-monitor   no search string entries
+24:10:25.223974 dns-monitor HostDnsMonitor: new information
+24:10:25.224036 dns-monitor   server 1: 10.70.102.10
+24:10:25.224089 dns-monitor   domain: cis-a.ugto.mx
+24:10:25.224134 dns-monitor   no search string entries
+24:17:05.447372 dns-monitor HostDnsMonitor::updateInfo
+24:17:05.447558 dns-monitor HostDnsMonitor: unchanged
+24:47:03.677220 dns-monitor HostDnsMonitor::updateInfo
+24:47:03.677868 dns-monitor HostDnsMonitor: unchanged
+24:47:26.899738 MainPower Host suspending: Paused 1 VMs
+25:43:43.958342 MainPower Host resumed: Resumed 1 VMs
+25:43:44.032097 dns-monitor HostDnsMonitor::updateInfo
+25:43:44.032190 dns-monitor HostDnsMonitor: old information
+25:43:44.032208 dns-monitor   server 1: 10.70.102.10
+25:43:44.032226 dns-monitor   domain: cis-a.ugto.mx
+25:43:44.032242 dns-monitor   no search string entries
+25:43:44.032259 dns-monitor HostDnsMonitor: new information
+25:43:44.032274 dns-monitor   no server entries
+25:43:44.032289 dns-monitor   no domain set
+25:43:44.032304 dns-monitor   no search string entries
+25:43:57.874210 MainPower Host suspending: Paused 1 VMs
+25:44:02.075139 dns-monitor HostDnsMonitor::updateInfo
+25:44:02.075215 dns-monitor HostDnsMonitor: old information
+25:44:02.075233 dns-monitor   no server entries
+25:44:02.075252 dns-monitor   no domain set
+25:44:02.075269 dns-monitor   no search string entries
+25:44:02.075287 dns-monitor HostDnsMonitor: new information
+25:44:02.075304 dns-monitor   server 1: 10.70.102.10
+25:44:02.075321 dns-monitor   domain: cis-a.ugto.mx
+25:44:02.075338 dns-monitor   no search string entries
+25:44:06.700811 dns-monitor HostDnsMonitor::updateInfo
+25:44:06.700877 dns-monitor HostDnsMonitor: unchanged
+25:44:33.971308 MainPower Host resumed: Resumed 1 VMs
+25:44:36.153225 dns-monitor HostDnsMonitor::updateInfo
+25:44:36.153325 dns-monitor HostDnsMonitor: old information
+25:44:36.153344 dns-monitor   server 1: 10.70.102.10
+25:44:36.153364 dns-monitor   domain: cis-a.ugto.mx
+25:44:36.153381 dns-monitor   no search string entries
+25:44:36.153398 dns-monitor HostDnsMonitor: new information
+25:44:36.153415 dns-monitor   no server entries
+25:44:36.153432 dns-monitor   no domain set
+25:44:36.153447 dns-monitor   no search string entries
+25:44:53.344926 dns-monitor HostDnsMonitor::updateInfo
+25:44:53.345019 dns-monitor HostDnsMonitor: old information
+25:44:53.345040 dns-monitor   no server entries
+25:44:53.345060 dns-monitor   no domain set
+25:44:53.345078 dns-monitor   no search string entries
+25:44:53.345096 dns-monitor HostDnsMonitor: new information
+25:44:53.345113 dns-monitor   server 1: 10.70.102.10
+25:44:53.345334 dns-monitor   domain: cis-a.ugto.mx
+25:44:53.345361 dns-monitor   no search string entries
+26:02:06.028780 MainPower Host suspending: Paused 1 VMs
+26:09:14.151814 dns-monitor HostDnsMonitor::updateInfo
+26:09:14.151950 dns-monitor HostDnsMonitor: old information
+26:09:14.151990 dns-monitor   server 1: 10.70.102.10
+26:09:14.152011 dns-monitor   domain: cis-a.ugto.mx
+26:09:14.152071 dns-monitor   no search string entries
+26:09:14.152100 dns-monitor HostDnsMonitor: new information
+26:09:14.152121 dns-monitor   no server entries
+26:09:14.152139 dns-monitor   no domain set
+26:09:14.152156 dns-monitor   no search string entries
+28:14:28.005306 MainPower Host resumed: Resumed 1 VMs
+28:36:54.959136 MainPower Host suspending: Paused 1 VMs
+28:50:25.433255 MainPower Host resumed: Resumed 1 VMs
+29:04:27.504303 MainPower Host suspending: Paused 1 VMs
+29:09:24.621052 MainPower Host resumed: Resumed 1 VMs
+29:09:32.045637 MainPower Host suspending: Paused 1 VMs
+32:01:24.305792 MainPower Host resumed: Resumed 1 VMs
+32:06:05.196732          Saving settings file "C:\Users\Ivan Delgado\VirtualBox VMs\Ubuntu\Ubuntu.vbox" with version "1.16-windows"
+32:06:40.362518          Saving settings file "C:\Users\Ivan Delgado\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+32:06:40.551053          Saving settings file "C:\Users\Ivan Delgado\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+32:06:46.169021 main     VirtualBox: object deletion starts
+32:06:46.206733 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\Ivan Delgado\VirtualBox VMs\Ubuntu\Ubuntu.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+32:06:46.388560 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+32:06:46.405141 main     VirtualBox: object deleted

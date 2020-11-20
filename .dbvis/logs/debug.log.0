@@ -1,0 +1,595 @@
+2020-11-06 11:49:22.819 CONFIG 789 [AWT-EventQueue-0 - e.b] Product: DbVisualizer 11.0.5 [Build #3113]
+2020-11-06 11:49:22.829 CONFIG 789 [AWT-EventQueue-0 - e.b] OS: Windows 10
+2020-11-06 11:49:22.829 CONFIG 789 [AWT-EventQueue-0 - e.b] OS Version: 10.0
+2020-11-06 11:49:22.829 CONFIG 789 [AWT-EventQueue-0 - e.b] OS Arch: amd64
+2020-11-06 11:49:22.829 CONFIG 789 [AWT-EventQueue-0 - e.b] Java Version: 1.8.0_252
+2020-11-06 11:49:22.829 CONFIG 789 [AWT-EventQueue-0 - e.b] Java VM: OpenJDK 64-Bit Server VM
+2020-11-06 11:49:22.829 CONFIG 789 [AWT-EventQueue-0 - e.b] Java Vendor: AdoptOpenJDK
+2020-11-06 11:49:22.829 CONFIG 789 [AWT-EventQueue-0 - e.b] Java Home: c:\program files\dbvisualizer\jre
+2020-11-06 11:49:22.829 CONFIG 789 [AWT-EventQueue-0 - e.b] DbVis Home: C:\Program Files\DbVisualizer
+2020-11-06 11:49:22.829 CONFIG 789 [AWT-EventQueue-0 - e.b] User Home: C:\Users\Ivan Delgado
+2020-11-06 11:49:22.829 CONFIG 789 [AWT-EventQueue-0 - e.b] PrefsDir: C:\Users\Ivan Delgado\.dbvis
+2020-11-06 11:49:22.829 CONFIG 789 [AWT-EventQueue-0 - e.b] SessionId: 789
+2020-11-06 11:49:23.139 CONFIG 789 [AWT-EventQueue-0 - e.b] Java Arguments: <none>
+2020-11-06 11:49:23.139 CONFIG 789 [AWT-EventQueue-0 - e.b] Java Properties: 
+-Ddbvis.home=C:\Program Files\DbVisualizer\
+-Dexe4j.consoleCodepage=cp0
+-Dexe4j.isInstall4j=true
+-Dexe4j.moduleName=C:\Program Files\DbVisualizer\dbvis.exe
+-Dexe4j.semaphoreName=Local\c:_program_files_dbvisualizer_dbvis.exe
+-Dexe4j.tempDir=
+-Dexe4j.unextractedPosition=0
+-Dinstall4j.launcherId=2
+-Dinstall4j.swt=false
+-Djava.library.path=c:\program files\dbvisualizer\jre\bin;C:\Program Files\DbVisualizer\.\jdbc\jtds\x64\SSO;c:\users\ivande~1\appdata\local\temp\e4jf44c.tmp_dir1604684722\jre\bin;C:\Users\IVANDE~1\AppData\Local\Temp\e4jF44C.tmp_dir1604684722\user;C:\Program Files\Mozilla Firefox;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2018a\runtime\win64;C:\Program Files\MATLAB\R2018a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Go\bin;C:\Users\Ivan Delgado\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Ivan Delgado\AppData\Local\Programs\Python\Python38\;C:\Users\Ivan Delgado\AppData\Local\Microsoft\WindowsApps;C:\Users\Ivan Delgado\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\Modeltech_pe_edu_10.4a\win32pe_edu;C:\Users\Ivan Delgado\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ivan Delgado\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Users\Ivan Delgado\go\bin
+-Dsun.locale.formatasdefault=true
+-XX:StringTableSize=1000003
+-Xmx768m
+2020-11-06 11:49:23.499 INFO   789 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\Ivan Delgado\.dbvis\Bookmarks
+2020-11-06 11:49:23.499 INFO   789 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\Ivan Delgado\.dbvis\config70
+2020-11-06 11:49:23.499 INFO   789 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\Ivan Delgado\.dbvis\config70\borders
+2020-11-06 11:49:23.499 INFO   789 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\Ivan Delgado\.dbvis\config70\themes
+2020-11-06 11:49:23.509 INFO   789 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\Ivan Delgado\.dbvis\config70\keymaps
+2020-11-06 11:49:23.509 INFO   789 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\Ivan Delgado\.dbvis\config70\layouts
+2020-11-06 11:49:23.509 INFO   789 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\Ivan Delgado\.dbvis\config70\sqlformats
+2020-11-06 11:49:23.509 INFO   789 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\Ivan Delgado\.dbvis\ext
+2020-11-06 11:49:23.509 INFO   789 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\Ivan Delgado\.dbvis\ext\images
+2020-11-06 11:49:23.509 INFO   789 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\Ivan Delgado\.dbvis\ext\images\16x16
+2020-11-06 11:49:23.509 INFO   789 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\Ivan Delgado\.dbvis\ext\images\24x24
+2020-11-06 11:49:23.509 INFO   789 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\Ivan Delgado\.dbvis\ext\profiles
+2020-11-06 11:49:23.519 INFO   789 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\Ivan Delgado\.dbvis\ext\keywords
+2020-11-06 11:49:23.609 INFO   789 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\Ivan Delgado\.dbvis\History
+2020-11-06 11:49:23.609 INFO   789 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\Ivan Delgado\.dbvis\import
+2020-11-06 11:49:23.609 INFO   789 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\Ivan Delgado\.dbvis\jdbc
+2020-11-06 11:49:23.609 INFO   789 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\Ivan Delgado\.dbvis\Monitors
+2020-11-06 11:49:23.609 INFO   789 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\Ivan Delgado\.dbvis\Workspace
+2020-11-06 11:49:23.609 INFO   789 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\Ivan Delgado\.dbvis\Workspace\default
+2020-11-06 11:49:23.609 INFO   789 [AWT-EventQueue-0 - c.b] Directory created: C:\Users\Ivan Delgado\.dbvis\sqllogs
+2020-11-06 11:49:23.689 INFO   789 [AWT-EventQueue-0 - b.c] Files in: C:\Users\Ivan Delgado\.dbvis\config70
+2020-11-06 11:49:23.689 INFO   789 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\borders (writable: true, readable: true)
+2020-11-06 11:49:23.689 INFO   789 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\keymaps (writable: true, readable: true)
+2020-11-06 11:49:23.689 INFO   789 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\layouts (writable: true, readable: true)
+2020-11-06 11:49:23.689 INFO   789 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\sqlformats (writable: true, readable: true)
+2020-11-06 11:49:23.689 INFO   789 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\themes (writable: true, readable: true)
+2020-11-06 11:49:24.029 INFO   789 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\dbvis.xml
+2020-11-06 11:49:24.029 INFO   789 [AWT-EventQueue-0 - b.qb]    Looking for backup file: C:\Users\Ivan Delgado\.dbvis\config70\dbvis.xml.bak
+2020-11-06 11:49:24.029 INFO   789 [AWT-EventQueue-0 - b.qb]       No backup file found or it is zero length: C:\Users\Ivan Delgado\.dbvis\config70\dbvis.xml.bak. Will use default setup
+2020-11-06 11:49:26.258 INFO   789 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\tablefilters.xml
+2020-11-06 11:49:26.268 INFO   789 [AWT-EventQueue-0 - b.qb]    Looking for backup file: C:\Users\Ivan Delgado\.dbvis\config70\tablefilters.xml.bak
+2020-11-06 11:49:26.268 INFO   789 [AWT-EventQueue-0 - b.qb]       No backup file found or it is zero length: C:\Users\Ivan Delgado\.dbvis\config70\tablefilters.xml.bak. Will use default setup
+2020-11-06 11:49:26.268 INFO   789 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\favorites.xml
+2020-11-06 11:49:26.268 INFO   789 [AWT-EventQueue-0 - b.qb]    Looking for backup file: C:\Users\Ivan Delgado\.dbvis\config70\favorites.xml.bak
+2020-11-06 11:49:26.268 INFO   789 [AWT-EventQueue-0 - b.qb]       No backup file found or it is zero length: C:\Users\Ivan Delgado\.dbvis\config70\favorites.xml.bak. Will use default setup
+2020-11-06 11:49:26.268 INFO   789 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\templates.xml
+2020-11-06 11:49:26.268 INFO   789 [AWT-EventQueue-0 - b.qb]    Looking for backup file: C:\Users\Ivan Delgado\.dbvis\config70\templates.xml.bak
+2020-11-06 11:49:26.268 INFO   789 [AWT-EventQueue-0 - b.qb]       No backup file found or it is zero length: C:\Users\Ivan Delgado\.dbvis\config70\templates.xml.bak. Will use default setup
+2020-11-06 11:49:26.608 INFO   789 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\workingset.xml
+2020-11-06 11:49:26.608 INFO   789 [AWT-EventQueue-0 - b.qb]    Looking for backup file: C:\Users\Ivan Delgado\.dbvis\config70\workingset.xml.bak
+2020-11-06 11:49:26.608 INFO   789 [AWT-EventQueue-0 - b.qb]       No backup file found or it is zero length: C:\Users\Ivan Delgado\.dbvis\config70\workingset.xml.bak. Will use default setup
+2020-11-06 11:49:26.608 INFO   789 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\mp.xml
+2020-11-06 11:49:26.608 INFO   789 [AWT-EventQueue-0 - b.qb]    Looking for backup file: C:\Users\Ivan Delgado\.dbvis\config70\mp.xml.bak
+2020-11-06 11:49:26.608 INFO   789 [AWT-EventQueue-0 - b.qb]       No backup file found or it is zero length: C:\Users\Ivan Delgado\.dbvis\config70\mp.xml.bak. Will use default setup
+2020-11-06 11:49:26.608 INFO   789 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\recent-paths.xml
+2020-11-06 11:49:26.618 INFO   789 [AWT-EventQueue-0 - b.qb]    Looking for backup file: C:\Users\Ivan Delgado\.dbvis\config70\recent-paths.xml.bak
+2020-11-06 11:49:26.618 INFO   789 [AWT-EventQueue-0 - b.qb]       No backup file found or it is zero length: C:\Users\Ivan Delgado\.dbvis\config70\recent-paths.xml.bak. Will use default setup
+2020-11-06 11:49:26.618 INFO   789 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\themes\theme-windows.xml
+2020-11-06 11:49:26.618 INFO   789 [AWT-EventQueue-0 - b.qb]    Looking for backup file: C:\Users\Ivan Delgado\.dbvis\config70\themes\theme-windows.xml.bak
+2020-11-06 11:49:26.618 INFO   789 [AWT-EventQueue-0 - b.qb]       No backup file found or it is zero length: C:\Users\Ivan Delgado\.dbvis\config70\themes\theme-windows.xml.bak. Will use default setup
+2020-11-06 11:49:26.878 INFO   789 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\mail-server-accounts.xml
+2020-11-06 11:49:26.878 INFO   789 [AWT-EventQueue-0 - b.qb]    Looking for backup file: C:\Users\Ivan Delgado\.dbvis\config70\mail-server-accounts.xml.bak
+2020-11-06 11:49:26.878 INFO   789 [AWT-EventQueue-0 - b.qb]       No backup file found or it is zero length: C:\Users\Ivan Delgado\.dbvis\config70\mail-server-accounts.xml.bak. Will use default setup
+2020-11-06 11:49:30.299 INFO   789 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The TNS_ADMIN environment variable is not set. Trying ORACLE_HOME
+2020-11-06 11:49:30.299 INFO   789 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The ORACLE_HOME environment variable is not set. TNS names cannot be used for Oracle connections
+2020-11-06 11:49:31.319 INFO   789 [AWT-EventQueue-0 - jb.k] Existing beans: 'PS Old Gen' max: 536870912
+2020-11-06 11:49:31.319 INFO   789 [AWT-EventQueue-0 - jb.k] Memory monitor initialized for MxBean: 'PS Old Gen' Notification threshold: 5242880 Low memory threshold: 3145728 release buffer: 1048576 Usage threshold: 531628032
+2020-11-06 11:55:27.196 INFO   789 [AWT-EventQueue-0 - DbVisualizerGUI.initialize] Startup time: 365.903
+2020-11-06 11:55:28.445 INFO   789 [AWT-EventQueue-0 - fb.e] Workspace auto saver thread started. Interval: 30 sec
+2020-11-06 11:55:28.457 INFO   789 [AWT-EventQueue-0 - ab.d] Connection keep-alive thread started. Interval: 10 sec
+2020-11-06 11:55:28.457 INFO   789 [AWT-EventQueue-0 - r.g] Workspace file modification monitor thread started. Interval: 30 sec
+2020-11-06 12:42:22.163 INFO   789 [AWT-EventQueue-0 - b.e] Wrote user properties files. Time: 2.128. Success files: 9. Failed: 0
+2020-11-06 12:42:41.728 INFO   789 [ExecutorRunner-pool-4-thread-5 - i.bc] Exception while connecting dicisComputo
+*** Database Properties ****************************
+Alias: dicisComputo
+Notes: [0 characters]
+Settings Format: Server Info
+URL: jdbc:mysql://dbcomputonube.czk6bmarfnlk.us-east-2.rds.amazonaws.com:3305/computo
+Driver: MySQL
+Userid: Admin
+Preferred Database Type: AUTO
+Current Database Type: MYSQL
+Preferred Profile: auto
+Current Profile: null (not connected?)
+Connection State(s): DISCONNECTED
+--- Object Type Settings ---------------------------
+None
+--- Overridden User Properties ---------------------
+None
+--- Overridden Driver Properties -------------------
+useCursorFetch = true
+defaultFetchSize = 5000
+*** End Database Properties ************************
+*** Driver Information *****************************
+Name: MySQL
+DefaultDriver: true
+DefaultClass: com.mysql.jdbc.Driver
+Paths:
+  Path: C:\Program Files\DbVisualizer\jdbc\mysql\mysql.jar
+    Class: com.mysql.jdbc.Driver
+*** End Driver Information *************************
+*** Current Connection Message *********************
+Disconnected.
+*** End Current Connection Message *****************
+
+2020-11-06 12:42:41.728 INFO   789 [ExecutorRunner-pool-4-thread-5 - i.bc] Exception while connecting dicisComputo
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:335)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2187)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2220)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2015)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:768)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:385)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:323)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.onseven.dbvis.jb.c.e.b(Z:1548)
+	at com.onseven.dbvis.jb.c.g$_b.call(Z:1369)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:299)
+	... 22 more
+2020-11-06 12:43:25.886 INFO   789 [ExecutorRunner-pool-4-thread-5 - i.bc] Exception while connecting dicisComputo
+*** Database Properties ****************************
+Alias: dicisComputo
+Notes: [0 characters]
+Settings Format: Server Info
+URL: jdbc:mysql://dbcomputonube.czk6bmarfnlk.us-east-2.rds.amazonaws.com:3305/computo
+Driver: MySQL
+Userid: Admin
+Preferred Database Type: AUTO
+Current Database Type: MYSQL
+Preferred Profile: auto
+Current Profile: null (not connected?)
+Connection State(s): DISCONNECTED
+--- Object Type Settings ---------------------------
+None
+--- Overridden User Properties ---------------------
+None
+--- Overridden Driver Properties -------------------
+useCursorFetch = true
+defaultFetchSize = 5000
+*** End Database Properties ************************
+*** Driver Information *****************************
+Name: MySQL
+DefaultDriver: true
+DefaultClass: com.mysql.jdbc.Driver
+Paths:
+  Path: C:\Program Files\DbVisualizer\jdbc\mysql\mysql.jar
+    Class: com.mysql.jdbc.Driver
+*** End Driver Information *************************
+*** Current Connection Message *********************
+Disconnected.
+*** End Current Connection Message *****************
+
+2020-11-06 12:43:25.886 INFO   789 [ExecutorRunner-pool-4-thread-5 - i.bc] Exception while connecting dicisComputo
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:335)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2187)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2220)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2015)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:768)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:385)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:323)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.onseven.dbvis.jb.c.e.b(Z:1548)
+	at com.onseven.dbvis.jb.c.g$_b.call(Z:1369)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:299)
+	... 22 more
+2020-11-06 13:07:09.413 INFO   789 [AWT-EventQueue-0 - b.e] Wrote user properties files. Time: 2.662. Success files: 9. Failed: 0
+2020-11-06 13:07:27.924 INFO   789 [ExecutorRunner-pool-4-thread-7 - i.bc] Exception while connecting dicisComputo
+*** Database Properties ****************************
+Alias: dicisComputo
+Notes: [0 characters]
+Settings Format: Server Info
+URL: jdbc:mysql://dbcomputonube.czk6bmarfnlk.us-east-2.rds.amazonaws.com:3305/computo
+Driver: MySQL
+Userid: admin
+Preferred Database Type: AUTO
+Current Database Type: MYSQL
+Preferred Profile: auto
+Current Profile: null (not connected?)
+Connection State(s): DISCONNECTED
+--- Object Type Settings ---------------------------
+None
+--- Overridden User Properties ---------------------
+None
+--- Overridden Driver Properties -------------------
+useCursorFetch = true
+defaultFetchSize = 5000
+*** End Database Properties ************************
+*** Driver Information *****************************
+Name: MySQL
+DefaultDriver: true
+DefaultClass: com.mysql.jdbc.Driver
+Paths:
+  Path: C:\Program Files\DbVisualizer\jdbc\mysql\mysql.jar
+    Class: com.mysql.jdbc.Driver
+*** End Driver Information *************************
+*** Current Connection Message *********************
+Disconnected.
+*** End Current Connection Message *****************
+
+2020-11-06 13:07:27.924 INFO   789 [ExecutorRunner-pool-4-thread-7 - i.bc] Exception while connecting dicisComputo
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:335)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2187)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2220)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2015)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:768)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:385)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:323)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.onseven.dbvis.jb.c.e.b(Z:1548)
+	at com.onseven.dbvis.jb.c.g$_b.call(Z:1369)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:299)
+	... 22 more
+2020-11-06 13:10:48.263 INFO   789 [pool-5-thread-6 - s.flush] Fri Nov 06 13:10:48 CST 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2020-11-06 13:10:50.924 INFO   789 [AWT-EventQueue-0 - b.e] Wrote user properties files. Time: 2.893. Success files: 9. Failed: 0
+2020-11-06 13:14:02.960 INFO   789 [AWT-EventQueue-0 - b.e] Wrote user properties files. Time: 3.725. Success files: 9. Failed: 0
+2020-11-06 13:14:02.960 INFO   789 [AWT-EventQueue-0 - DbVisualizerGUI.b] Shutdown time: 4.651
+2020-11-12 09:46:14.050 CONFIG 190 [AWT-EventQueue-0 - e.b] Product: DbVisualizer 11.0.5 [Build #3113]
+2020-11-12 09:46:14.087 CONFIG 190 [AWT-EventQueue-0 - e.b] OS: Windows 10
+2020-11-12 09:46:14.087 CONFIG 190 [AWT-EventQueue-0 - e.b] OS Version: 10.0
+2020-11-12 09:46:14.088 CONFIG 190 [AWT-EventQueue-0 - e.b] OS Arch: amd64
+2020-11-12 09:46:14.088 CONFIG 190 [AWT-EventQueue-0 - e.b] Java Version: 1.8.0_252
+2020-11-12 09:46:14.089 CONFIG 190 [AWT-EventQueue-0 - e.b] Java VM: OpenJDK 64-Bit Server VM
+2020-11-12 09:46:14.089 CONFIG 190 [AWT-EventQueue-0 - e.b] Java Vendor: AdoptOpenJDK
+2020-11-12 09:46:14.090 CONFIG 190 [AWT-EventQueue-0 - e.b] Java Home: c:\program files\dbvisualizer\jre
+2020-11-12 09:46:14.091 CONFIG 190 [AWT-EventQueue-0 - e.b] DbVis Home: C:\Program Files\DbVisualizer
+2020-11-12 09:46:14.091 CONFIG 190 [AWT-EventQueue-0 - e.b] User Home: C:\Users\Ivan Delgado
+2020-11-12 09:46:14.092 CONFIG 190 [AWT-EventQueue-0 - e.b] PrefsDir: C:\Users\Ivan Delgado\.dbvis
+2020-11-12 09:46:14.092 CONFIG 190 [AWT-EventQueue-0 - e.b] SessionId: 190
+2020-11-12 09:46:14.147 CONFIG 190 [AWT-EventQueue-0 - e.b] Java Arguments: <none>
+2020-11-12 09:46:14.148 CONFIG 190 [AWT-EventQueue-0 - e.b] Java Properties: 
+-Ddbvis.home=C:\Program Files\DbVisualizer\
+-Dexe4j.consoleCodepage=cp0
+-Dexe4j.isInstall4j=true
+-Dexe4j.moduleName=C:\Program Files\DbVisualizer\dbvis.exe
+-Dexe4j.semaphoreName=Local\c:_program_files_dbvisualizer_dbvis.exe
+-Dexe4j.tempDir=
+-Dexe4j.unextractedPosition=0
+-Dinstall4j.launcherId=2
+-Dinstall4j.swt=false
+-Djava.library.path=c:\program files\dbvisualizer\jre\bin;C:\Program Files\DbVisualizer\.\jdbc\jtds\x64\SSO;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2018a\runtime\win64;C:\Program Files\MATLAB\R2018a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Go\bin;C:\Users\Ivan Delgado\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Ivan Delgado\AppData\Local\Programs\Python\Python38\;C:\Users\Ivan Delgado\AppData\Local\Microsoft\WindowsApps;C:\Users\Ivan Delgado\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\Modeltech_pe_edu_10.4a\win32pe_edu;C:\Users\Ivan Delgado\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ivan Delgado\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Users\Ivan Delgado\go\bin;C:\Users\Ivan Delgado\.dotnet\tools
+-Dsun.locale.formatasdefault=true
+-XX:StringTableSize=1000003
+-Xmx768m
+2020-11-12 09:46:15.125 INFO   190 [AWT-EventQueue-0 - b.c] Files in: C:\Users\Ivan Delgado\.dbvis\config70
+2020-11-12 09:46:15.126 INFO   190 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\borders (writable: true, readable: true)
+2020-11-12 09:46:15.127 INFO   190 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\dbvis.xml (length: 42621, writable: true, readable: true)
+2020-11-12 09:46:15.129 INFO   190 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\dbvis.xml.bak (length: 42621, writable: true, readable: true)
+2020-11-12 09:46:15.133 INFO   190 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\favorites.xml (length: 86, writable: true, readable: true)
+2020-11-12 09:46:15.157 INFO   190 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\favorites.xml.bak (length: 86, writable: true, readable: true)
+2020-11-12 09:46:15.159 INFO   190 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\keymaps (writable: true, readable: true)
+2020-11-12 09:46:15.160 INFO   190 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\layouts (writable: true, readable: true)
+2020-11-12 09:46:15.162 INFO   190 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\mail-server-accounts.xml (length: 95, writable: true, readable: true)
+2020-11-12 09:46:15.187 INFO   190 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\mail-server-accounts.xml.bak (length: 95, writable: true, readable: true)
+2020-11-12 09:46:15.193 INFO   190 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\mp.xml (length: 91, writable: true, readable: true)
+2020-11-12 09:46:15.204 INFO   190 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\mp.xml.bak (length: 91, writable: true, readable: true)
+2020-11-12 09:46:15.209 INFO   190 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\recent-paths.xml (length: 55, writable: true, readable: true)
+2020-11-12 09:46:15.210 INFO   190 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\recent-paths.xml.bak (length: 55, writable: true, readable: true)
+2020-11-12 09:46:15.211 INFO   190 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\sqlformats (writable: true, readable: true)
+2020-11-12 09:46:15.222 INFO   190 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\tablefilters.xml (length: 93, writable: true, readable: true)
+2020-11-12 09:46:15.224 INFO   190 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\tablefilters.xml.bak (length: 93, writable: true, readable: true)
+2020-11-12 09:46:15.225 INFO   190 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\templates.xml (length: 155, writable: true, readable: true)
+2020-11-12 09:46:15.227 INFO   190 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\templates.xml.bak (length: 155, writable: true, readable: true)
+2020-11-12 09:46:15.227 INFO   190 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\themes (writable: true, readable: true)
+2020-11-12 09:46:15.245 INFO   190 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\workingset.xml (length: 88, writable: true, readable: true)
+2020-11-12 09:46:15.264 INFO   190 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\workingset.xml.bak (length: 88, writable: true, readable: true)
+2020-11-12 09:46:15.389 INFO   190 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\dbvis.xml
+2020-11-12 09:46:15.583 INFO   190 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\dbvis.xml (42621 bytes)
+2020-11-12 09:46:16.059 INFO   190 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\dbvis.xml.bak
+2020-11-12 09:46:21.390 INFO   190 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\tablefilters.xml
+2020-11-12 09:46:21.409 INFO   190 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\tablefilters.xml (93 bytes)
+2020-11-12 09:46:21.413 INFO   190 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\tablefilters.xml.bak
+2020-11-12 09:46:21.920 INFO   190 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\favorites.xml
+2020-11-12 09:46:21.967 INFO   190 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\favorites.xml (86 bytes)
+2020-11-12 09:46:21.970 INFO   190 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\favorites.xml.bak
+2020-11-12 09:46:22.027 INFO   190 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\templates.xml
+2020-11-12 09:46:22.095 INFO   190 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\templates.xml (155 bytes)
+2020-11-12 09:46:22.099 INFO   190 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\templates.xml.bak
+2020-11-12 09:46:22.322 INFO   190 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\workingset.xml
+2020-11-12 09:46:22.343 INFO   190 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\workingset.xml (88 bytes)
+2020-11-12 09:46:22.351 INFO   190 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\workingset.xml.bak
+2020-11-12 09:46:22.447 INFO   190 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\mp.xml
+2020-11-12 09:46:22.465 INFO   190 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\mp.xml (91 bytes)
+2020-11-12 09:46:22.469 INFO   190 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\mp.xml.bak
+2020-11-12 09:46:22.565 INFO   190 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\recent-paths.xml
+2020-11-12 09:46:22.612 INFO   190 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\recent-paths.xml (55 bytes)
+2020-11-12 09:46:22.615 INFO   190 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\recent-paths.xml.bak
+2020-11-12 09:46:22.785 INFO   190 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\themes\theme-windows.xml
+2020-11-12 09:46:22.847 INFO   190 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\themes\theme-windows.xml (207 bytes)
+2020-11-12 09:46:22.852 INFO   190 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\themes\theme-windows.xml.bak
+2020-11-12 09:46:23.185 INFO   190 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\mail-server-accounts.xml
+2020-11-12 09:46:23.206 INFO   190 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\mail-server-accounts.xml (95 bytes)
+2020-11-12 09:46:23.212 INFO   190 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\mail-server-accounts.xml.bak
+2020-11-12 09:46:28.448 INFO   190 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The TNS_ADMIN environment variable is not set. Trying ORACLE_HOME
+2020-11-12 09:46:28.453 INFO   190 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The ORACLE_HOME environment variable is not set. TNS names cannot be used for Oracle connections
+2020-11-12 09:46:31.637 INFO   190 [AWT-EventQueue-0 - jb.k] Existing beans: 'PS Old Gen' max: 536870912
+2020-11-12 09:46:31.638 INFO   190 [AWT-EventQueue-0 - jb.k] Memory monitor initialized for MxBean: 'PS Old Gen' Notification threshold: 5242880 Low memory threshold: 3145728 release buffer: 1048576 Usage threshold: 531628032
+2020-11-12 09:46:42.775 INFO   190 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\themes\theme-windows.xml
+2020-11-12 09:46:42.776 INFO   190 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\themes\theme-windows.xml (207 bytes)
+2020-11-12 09:46:42.782 INFO   190 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\themes\theme-windows.xml.bak
+2020-11-12 09:47:20.685 INFO   190 [AWT-EventQueue-0 - DbVisualizerGUI.initialize] Startup time: 71.895
+2020-11-12 09:47:22.643 INFO   190 [AWT-EventQueue-0 - fb.e] Workspace auto saver thread started. Interval: 30 sec
+2020-11-12 09:47:22.647 INFO   190 [AWT-EventQueue-0 - ab.d] Connection keep-alive thread started. Interval: 10 sec
+2020-11-12 09:47:22.659 INFO   190 [AWT-EventQueue-0 - r.g] Workspace file modification monitor thread started. Interval: 30 sec
+2020-11-12 09:48:04.302 INFO   190 [AWT-EventQueue-0 - b.e] Wrote user properties files. Time: 3.540. Success files: 9. Failed: 0
+2020-11-12 09:48:04.303 INFO   190 [AWT-EventQueue-0 - DbVisualizerGUI.b] Shutdown time: 4.132
+2020-11-13 08:07:50.877 CONFIG 598 [AWT-EventQueue-0 - e.b] Product: DbVisualizer 11.0.5 [Build #3113]
+2020-11-13 08:07:50.910 CONFIG 598 [AWT-EventQueue-0 - e.b] OS: Windows 10
+2020-11-13 08:07:50.911 CONFIG 598 [AWT-EventQueue-0 - e.b] OS Version: 10.0
+2020-11-13 08:07:50.912 CONFIG 598 [AWT-EventQueue-0 - e.b] OS Arch: amd64
+2020-11-13 08:07:50.913 CONFIG 598 [AWT-EventQueue-0 - e.b] Java Version: 1.8.0_252
+2020-11-13 08:07:50.914 CONFIG 598 [AWT-EventQueue-0 - e.b] Java VM: OpenJDK 64-Bit Server VM
+2020-11-13 08:07:50.915 CONFIG 598 [AWT-EventQueue-0 - e.b] Java Vendor: AdoptOpenJDK
+2020-11-13 08:07:50.916 CONFIG 598 [AWT-EventQueue-0 - e.b] Java Home: c:\program files\dbvisualizer\jre
+2020-11-13 08:07:50.917 CONFIG 598 [AWT-EventQueue-0 - e.b] DbVis Home: C:\Program Files\DbVisualizer
+2020-11-13 08:07:50.917 CONFIG 598 [AWT-EventQueue-0 - e.b] User Home: C:\Users\Ivan Delgado
+2020-11-13 08:07:50.917 CONFIG 598 [AWT-EventQueue-0 - e.b] PrefsDir: C:\Users\Ivan Delgado\.dbvis
+2020-11-13 08:07:50.918 CONFIG 598 [AWT-EventQueue-0 - e.b] SessionId: 598
+2020-11-13 08:07:51.053 CONFIG 598 [AWT-EventQueue-0 - e.b] Java Arguments: <none>
+2020-11-13 08:07:51.055 CONFIG 598 [AWT-EventQueue-0 - e.b] Java Properties: 
+-Ddbvis.home=C:\Program Files\DbVisualizer\
+-Dexe4j.consoleCodepage=cp0
+-Dexe4j.isInstall4j=true
+-Dexe4j.moduleName=C:\Program Files\DbVisualizer\dbvis.exe
+-Dexe4j.semaphoreName=Local\c:_program_files_dbvisualizer_dbvis.exe
+-Dexe4j.tempDir=
+-Dexe4j.unextractedPosition=0
+-Dinstall4j.launcherId=2
+-Dinstall4j.swt=false
+-Djava.library.path=c:\program files\dbvisualizer\jre\bin;C:\Program Files\DbVisualizer\.\jdbc\jtds\x64\SSO;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2018a\runtime\win64;C:\Program Files\MATLAB\R2018a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Go\bin;C:\Users\Ivan Delgado\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Ivan Delgado\AppData\Local\Programs\Python\Python38\;C:\Users\Ivan Delgado\AppData\Local\Microsoft\WindowsApps;C:\Users\Ivan Delgado\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\Modeltech_pe_edu_10.4a\win32pe_edu;C:\Users\Ivan Delgado\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ivan Delgado\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Users\Ivan Delgado\go\bin;C:\Users\Ivan Delgado\.dotnet\tools
+-Dsun.locale.formatasdefault=true
+-XX:StringTableSize=1000003
+-Xmx768m
+2020-11-13 08:07:52.147 INFO   598 [AWT-EventQueue-0 - b.c] Files in: C:\Users\Ivan Delgado\.dbvis\config70
+2020-11-13 08:07:52.148 INFO   598 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\borders (writable: true, readable: true)
+2020-11-13 08:07:52.173 INFO   598 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\dbvis.xml (length: 42708, writable: true, readable: true)
+2020-11-13 08:07:52.175 INFO   598 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\dbvis.xml.bak (length: 42708, writable: true, readable: true)
+2020-11-13 08:07:52.180 INFO   598 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\favorites.xml (length: 86, writable: true, readable: true)
+2020-11-13 08:07:52.195 INFO   598 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\favorites.xml.bak (length: 86, writable: true, readable: true)
+2020-11-13 08:07:52.196 INFO   598 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\keymaps (writable: true, readable: true)
+2020-11-13 08:07:52.198 INFO   598 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\layouts (writable: true, readable: true)
+2020-11-13 08:07:52.199 INFO   598 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\mail-server-accounts.xml (length: 95, writable: true, readable: true)
+2020-11-13 08:07:52.203 INFO   598 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\mail-server-accounts.xml.bak (length: 95, writable: true, readable: true)
+2020-11-13 08:07:52.209 INFO   598 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\mp.xml (length: 91, writable: true, readable: true)
+2020-11-13 08:07:52.220 INFO   598 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\mp.xml.bak (length: 91, writable: true, readable: true)
+2020-11-13 08:07:52.225 INFO   598 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\recent-paths.xml (length: 55, writable: true, readable: true)
+2020-11-13 08:07:52.232 INFO   598 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\recent-paths.xml.bak (length: 55, writable: true, readable: true)
+2020-11-13 08:07:52.234 INFO   598 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\sqlformats (writable: true, readable: true)
+2020-11-13 08:07:52.250 INFO   598 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\tablefilters.xml (length: 93, writable: true, readable: true)
+2020-11-13 08:07:52.261 INFO   598 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\tablefilters.xml.bak (length: 93, writable: true, readable: true)
+2020-11-13 08:07:52.262 INFO   598 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\templates.xml (length: 155, writable: true, readable: true)
+2020-11-13 08:07:52.264 INFO   598 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\templates.xml.bak (length: 155, writable: true, readable: true)
+2020-11-13 08:07:52.265 INFO   598 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\themes (writable: true, readable: true)
+2020-11-13 08:07:52.267 INFO   598 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\workingset.xml (length: 88, writable: true, readable: true)
+2020-11-13 08:07:52.282 INFO   598 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\workingset.xml.bak (length: 88, writable: true, readable: true)
+2020-11-13 08:07:52.543 INFO   598 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\dbvis.xml
+2020-11-13 08:07:53.016 INFO   598 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\dbvis.xml (42708 bytes)
+2020-11-13 08:07:53.924 INFO   598 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\dbvis.xml.bak
+2020-11-13 08:08:02.856 INFO   598 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\tablefilters.xml
+2020-11-13 08:08:02.904 INFO   598 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\tablefilters.xml (93 bytes)
+2020-11-13 08:08:02.907 INFO   598 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\tablefilters.xml.bak
+2020-11-13 08:08:03.383 INFO   598 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\favorites.xml
+2020-11-13 08:08:03.400 INFO   598 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\favorites.xml (86 bytes)
+2020-11-13 08:08:03.404 INFO   598 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\favorites.xml.bak
+2020-11-13 08:08:03.564 INFO   598 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\templates.xml
+2020-11-13 08:08:03.580 INFO   598 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\templates.xml (155 bytes)
+2020-11-13 08:08:03.583 INFO   598 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\templates.xml.bak
+2020-11-13 08:08:03.926 INFO   598 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\workingset.xml
+2020-11-13 08:08:03.945 INFO   598 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\workingset.xml (88 bytes)
+2020-11-13 08:08:03.953 INFO   598 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\workingset.xml.bak
+2020-11-13 08:08:04.128 INFO   598 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\mp.xml
+2020-11-13 08:08:04.172 INFO   598 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\mp.xml (91 bytes)
+2020-11-13 08:08:04.176 INFO   598 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\mp.xml.bak
+2020-11-13 08:08:04.277 INFO   598 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\recent-paths.xml
+2020-11-13 08:08:04.444 INFO   598 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\recent-paths.xml (55 bytes)
+2020-11-13 08:08:04.447 INFO   598 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\recent-paths.xml.bak
+2020-11-13 08:08:04.882 INFO   598 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\themes\theme-windows.xml
+2020-11-13 08:08:04.934 INFO   598 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\themes\theme-windows.xml (207 bytes)
+2020-11-13 08:08:04.938 INFO   598 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\themes\theme-windows.xml.bak
+2020-11-13 08:08:05.431 INFO   598 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\mail-server-accounts.xml
+2020-11-13 08:08:05.448 INFO   598 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\mail-server-accounts.xml (95 bytes)
+2020-11-13 08:08:05.450 INFO   598 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\mail-server-accounts.xml.bak
+2020-11-13 08:08:15.017 INFO   598 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The TNS_ADMIN environment variable is not set. Trying ORACLE_HOME
+2020-11-13 08:08:15.018 INFO   598 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The ORACLE_HOME environment variable is not set. TNS names cannot be used for Oracle connections
+2020-11-13 08:08:21.187 INFO   598 [AWT-EventQueue-0 - jb.k] Existing beans: 'PS Old Gen' max: 536870912
+2020-11-13 08:08:21.188 INFO   598 [AWT-EventQueue-0 - jb.k] Memory monitor initialized for MxBean: 'PS Old Gen' Notification threshold: 5242880 Low memory threshold: 3145728 release buffer: 1048576 Usage threshold: 531628032
+2020-11-13 08:08:33.360 INFO   598 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\themes\theme-windows.xml
+2020-11-13 08:08:33.363 INFO   598 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\themes\theme-windows.xml (207 bytes)
+2020-11-13 08:08:33.379 INFO   598 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\themes\theme-windows.xml.bak
+2020-11-13 08:09:29.269 INFO   598 [AWT-EventQueue-0 - DbVisualizerGUI.initialize] Startup time: 104.408
+2020-11-13 08:09:31.635 INFO   598 [AWT-EventQueue-0 - fb.e] Workspace auto saver thread started. Interval: 30 sec
+2020-11-13 08:09:31.674 INFO   598 [AWT-EventQueue-0 - ab.d] Connection keep-alive thread started. Interval: 10 sec
+2020-11-13 08:09:31.682 INFO   598 [AWT-EventQueue-0 - r.g] Workspace file modification monitor thread started. Interval: 30 sec
+2020-11-13 08:09:59.963 INFO   598 [AWT-EventQueue-0 - b.e] Wrote user properties files. Time: 4.068. Success files: 9. Failed: 0
+2020-11-13 08:09:59.964 INFO   598 [AWT-EventQueue-0 - DbVisualizerGUI.b] Shutdown time: 4.929
+2020-11-18 15:46:30.435 CONFIG 702 [AWT-EventQueue-0 - e.b] Product: DbVisualizer 11.0.5 [Build #3113]
+2020-11-18 15:46:30.491 CONFIG 702 [AWT-EventQueue-0 - e.b] OS: Windows 10
+2020-11-18 15:46:30.492 CONFIG 702 [AWT-EventQueue-0 - e.b] OS Version: 10.0
+2020-11-18 15:46:30.492 CONFIG 702 [AWT-EventQueue-0 - e.b] OS Arch: amd64
+2020-11-18 15:46:30.493 CONFIG 702 [AWT-EventQueue-0 - e.b] Java Version: 1.8.0_252
+2020-11-18 15:46:30.493 CONFIG 702 [AWT-EventQueue-0 - e.b] Java VM: OpenJDK 64-Bit Server VM
+2020-11-18 15:46:30.494 CONFIG 702 [AWT-EventQueue-0 - e.b] Java Vendor: AdoptOpenJDK
+2020-11-18 15:46:30.495 CONFIG 702 [AWT-EventQueue-0 - e.b] Java Home: c:\program files\dbvisualizer\jre
+2020-11-18 15:46:30.495 CONFIG 702 [AWT-EventQueue-0 - e.b] DbVis Home: C:\Program Files\DbVisualizer
+2020-11-18 15:46:30.496 CONFIG 702 [AWT-EventQueue-0 - e.b] User Home: C:\Users\Ivan Delgado
+2020-11-18 15:46:30.496 CONFIG 702 [AWT-EventQueue-0 - e.b] PrefsDir: C:\Users\Ivan Delgado\.dbvis
+2020-11-18 15:46:30.497 CONFIG 702 [AWT-EventQueue-0 - e.b] SessionId: 702
+2020-11-18 15:46:30.582 CONFIG 702 [AWT-EventQueue-0 - e.b] Java Arguments: "C:\Users\Ivan Delgado\Desktop\Gimnasio\Gimnasio.sql"
+2020-11-18 15:46:30.583 CONFIG 702 [AWT-EventQueue-0 - e.b] Java Properties: 
+-Ddbvis.home=C:\Program Files\DbVisualizer\
+-Dexe4j.consoleCodepage=cp0
+-Dexe4j.isInstall4j=true
+-Dexe4j.moduleName=C:\Program Files\DbVisualizer\dbvis.exe
+-Dexe4j.semaphoreName=Local\c:_program_files_dbvisualizer_dbvis.exe
+-Dexe4j.tempDir=
+-Dexe4j.unextractedPosition=0
+-Dinstall4j.launcherId=2
+-Dinstall4j.swt=false
+-Djava.library.path=c:\program files\dbvisualizer\jre\bin;C:\Program Files\DbVisualizer\.\jdbc\jtds\x64\SSO;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2018a\runtime\win64;C:\Program Files\MATLAB\R2018a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\nodejs\;C:\Go\bin;C:\Program Files\Git\cmd;C:\Users\Ivan Delgado\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Ivan Delgado\AppData\Local\Programs\Python\Python38\;C:\Users\Ivan Delgado\AppData\Local\Microsoft\WindowsApps;C:\Users\Ivan Delgado\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\Modeltech_pe_edu_10.4a\win32pe_edu;C:\Users\Ivan Delgado\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ivan Delgado\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Users\Ivan Delgado\go\bin;C:\Users\Ivan Delgado\.dotnet\tools
+-Dsun.locale.formatasdefault=true
+-XX:StringTableSize=1000003
+-Xmx768m
+2020-11-18 15:46:31.903 INFO   702 [AWT-EventQueue-0 - b.c] Files in: C:\Users\Ivan Delgado\.dbvis\config70
+2020-11-18 15:46:31.904 INFO   702 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\borders (writable: true, readable: true)
+2020-11-18 15:46:31.905 INFO   702 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\dbvis.xml (length: 42710, writable: true, readable: true)
+2020-11-18 15:46:31.906 INFO   702 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\dbvis.xml.bak (length: 42710, writable: true, readable: true)
+2020-11-18 15:46:31.935 INFO   702 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\favorites.xml (length: 86, writable: true, readable: true)
+2020-11-18 15:46:31.937 INFO   702 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\favorites.xml.bak (length: 86, writable: true, readable: true)
+2020-11-18 15:46:31.937 INFO   702 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\keymaps (writable: true, readable: true)
+2020-11-18 15:46:31.938 INFO   702 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\layouts (writable: true, readable: true)
+2020-11-18 15:46:31.940 INFO   702 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\mail-server-accounts.xml (length: 95, writable: true, readable: true)
+2020-11-18 15:46:31.941 INFO   702 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\mail-server-accounts.xml.bak (length: 95, writable: true, readable: true)
+2020-11-18 15:46:31.971 INFO   702 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\mp.xml (length: 91, writable: true, readable: true)
+2020-11-18 15:46:31.982 INFO   702 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\mp.xml.bak (length: 91, writable: true, readable: true)
+2020-11-18 15:46:31.984 INFO   702 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\recent-paths.xml (length: 55, writable: true, readable: true)
+2020-11-18 15:46:31.986 INFO   702 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\recent-paths.xml.bak (length: 55, writable: true, readable: true)
+2020-11-18 15:46:31.987 INFO   702 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\sqlformats (writable: true, readable: true)
+2020-11-18 15:46:31.989 INFO   702 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\tablefilters.xml (length: 93, writable: true, readable: true)
+2020-11-18 15:46:31.990 INFO   702 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\tablefilters.xml.bak (length: 93, writable: true, readable: true)
+2020-11-18 15:46:31.991 INFO   702 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\templates.xml (length: 155, writable: true, readable: true)
+2020-11-18 15:46:31.992 INFO   702 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\templates.xml.bak (length: 155, writable: true, readable: true)
+2020-11-18 15:46:31.993 INFO   702 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\themes (writable: true, readable: true)
+2020-11-18 15:46:32.024 INFO   702 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\workingset.xml (length: 88, writable: true, readable: true)
+2020-11-18 15:46:32.054 INFO   702 [AWT-EventQueue-0 - b.c]    C:\Users\Ivan Delgado\.dbvis\config70\workingset.xml.bak (length: 88, writable: true, readable: true)
+2020-11-18 15:46:32.241 INFO   702 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\dbvis.xml
+2020-11-18 15:46:32.457 INFO   702 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\dbvis.xml (42710 bytes)
+2020-11-18 15:46:32.961 INFO   702 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\dbvis.xml.bak
+2020-11-18 15:46:38.302 INFO   702 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\tablefilters.xml
+2020-11-18 15:46:38.321 INFO   702 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\tablefilters.xml (93 bytes)
+2020-11-18 15:46:38.325 INFO   702 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\tablefilters.xml.bak
+2020-11-18 15:46:38.514 INFO   702 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\favorites.xml
+2020-11-18 15:46:38.537 INFO   702 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\favorites.xml (86 bytes)
+2020-11-18 15:46:38.540 INFO   702 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\favorites.xml.bak
+2020-11-18 15:46:38.671 INFO   702 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\templates.xml
+2020-11-18 15:46:38.689 INFO   702 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\templates.xml (155 bytes)
+2020-11-18 15:46:38.692 INFO   702 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\templates.xml.bak
+2020-11-18 15:46:39.052 INFO   702 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\workingset.xml
+2020-11-18 15:46:39.069 INFO   702 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\workingset.xml (88 bytes)
+2020-11-18 15:46:39.072 INFO   702 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\workingset.xml.bak
+2020-11-18 15:46:39.250 INFO   702 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\mp.xml
+2020-11-18 15:46:39.271 INFO   702 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\mp.xml (91 bytes)
+2020-11-18 15:46:39.275 INFO   702 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\mp.xml.bak
+2020-11-18 15:46:39.470 INFO   702 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\recent-paths.xml
+2020-11-18 15:46:39.487 INFO   702 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\recent-paths.xml (55 bytes)
+2020-11-18 15:46:39.489 INFO   702 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\recent-paths.xml.bak
+2020-11-18 15:46:39.650 INFO   702 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\themes\theme-windows.xml
+2020-11-18 15:46:39.699 INFO   702 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\themes\theme-windows.xml (207 bytes)
+2020-11-18 15:46:39.701 INFO   702 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\themes\theme-windows.xml.bak
+2020-11-18 15:46:40.040 INFO   702 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\mail-server-accounts.xml
+2020-11-18 15:46:40.055 INFO   702 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\mail-server-accounts.xml (95 bytes)
+2020-11-18 15:46:40.059 INFO   702 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\mail-server-accounts.xml.bak
+2020-11-18 15:46:42.291 INFO   702 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The TNS_ADMIN environment variable is not set. Trying ORACLE_HOME
+2020-11-18 15:46:42.295 INFO   702 [AWT-EventQueue-0 - OraTNSUtil.getTNSDirectory] The ORACLE_HOME environment variable is not set. TNS names cannot be used for Oracle connections
+2020-11-18 15:46:45.781 INFO   702 [AWT-EventQueue-0 - jb.k] Existing beans: 'PS Old Gen' max: 536870912
+2020-11-18 15:46:45.782 INFO   702 [AWT-EventQueue-0 - jb.k] Memory monitor initialized for MxBean: 'PS Old Gen' Notification threshold: 5242880 Low memory threshold: 3145728 release buffer: 1048576 Usage threshold: 531628032
+2020-11-18 15:46:57.105 INFO   702 [AWT-EventQueue-0 - b.jb] Loading file: C:\Users\Ivan Delgado\.dbvis\config70\themes\theme-windows.xml
+2020-11-18 15:46:57.107 INFO   702 [AWT-EventQueue-0 - b.jb]    Load/parse file: C:\Users\Ivan Delgado\.dbvis\config70\themes\theme-windows.xml (207 bytes)
+2020-11-18 15:46:57.110 INFO   702 [AWT-EventQueue-0 - b.jb]    Creating backup file: C:\Users\Ivan Delgado\.dbvis\config70\themes\theme-windows.xml.bak
+2020-11-18 15:47:28.416 INFO   702 [AWT-EventQueue-0 - DbVisualizerGUI.initialize] Startup time: 62.804
+2020-11-18 15:47:32.755 INFO   702 [AWT-EventQueue-0 - fb.e] Workspace auto saver thread started. Interval: 30 sec
+2020-11-18 15:47:32.788 INFO   702 [AWT-EventQueue-0 - ab.d] Connection keep-alive thread started. Interval: 10 sec
+2020-11-18 15:47:32.796 INFO   702 [AWT-EventQueue-0 - r.g] Workspace file modification monitor thread started. Interval: 30 sec
+2020-11-18 15:47:45.033 INFO   702 [AWT-EventQueue-0 - b.e] Wrote user properties files. Time: 3.688. Success files: 9. Failed: 0
+2020-11-18 15:47:45.034 INFO   702 [AWT-EventQueue-0 - DbVisualizerGUI.b] Shutdown time: 4.428
